@@ -1,7 +1,75 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     text-decoration: none;
     list-style: none;
+
+    font-family: 'Maven Pro', sans-serif;
 }
+
+body {
+    color: #000000;
+    background: #fffaec;
+}
+
+/* Design da barra de navegação */
+
+header {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px 9%;
+    background: transparent;
+    z-index: 1000;
+}
+
+.navbar {
+    display: flex;
+}
+
+.navbar a {
+    margin: 0 20px;
+    padding: 4px;
+    color: #000000;
+    font-size: 17px;
+    font-weight: 500;
+    border-bottom: 2px solid transparent;
+    transition: all .50s ease;
+}
+
+.navbar a:hover {
+    color: #3f51dc;
+    border-bottom: 2px solid #3f51dc;
+}
+
+#menu-icon {
+    font-size: 34px;
+    cursor: pointer;
+    z-index: 1001;
+    display: none;
+}
+
+.top-btn {
+    display: inline-block;
+    padding: 9px 25px;
+    font-size: 15px;
+    font-weight: 600;
+    color: #fff;
+    background: #3f51dc;
+    border-radius: 10px;
+    border: 2px solid transparent;
+    transition: all .50s ease;
+}
+
+.top-btn:hover {
+    background: transparent;
+    color: #3f51dc;
+    border: 2px solid #3f51dc;
+}
+
+/* 6:50 */
