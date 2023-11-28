@@ -223,4 +223,31 @@ span {
 
 /* Configurando a responsibilidade */
 
+@media(max-width: 1760px) {
+    header {
+        padding: 14px 4%;
+    }
+
+    .scroll {
+        right: 4%;
+    }
+
+    .icon {
+        padding: 0 4%;
+    }
+
+    section {
+        padding: 0 13%;
+    }
+}
+
+@media(max-width: 1560px) {
+    .hero-text h1 {
+        font-size: 80px;
+        margin: 0 0 20px;
+    }
+}
+
+
+
 /* 15:56 */
