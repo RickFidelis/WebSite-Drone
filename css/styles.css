@@ -72,4 +72,155 @@ header {
     border: 2px solid #3f51dc;
 }
 
-/* 6:50 */
+
+/* Design da sessão do Drone */
+
+section {
+    padding: 0 17%;
+}
+
+.hero {
+    height: 100%;
+    width: 100%;
+    min-height: 100vh;
+    position: relative;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    gap: 1.5rem;
+}
+
+.hero-text h6 {
+    font-size: 15px;
+    font-weight: 600;
+    color: #ffe392;
+    margin-bottom: 30px;
+}
+
+.hero-text h1 {
+    font-size: 95px;
+    line-height: 1.1;
+    margin: 0 0 30px;
+    font-family: 'Permanent Marker', cursive;
+}
+
+span {
+    color: #3f51dc;
+    font-family: 'Permanent Marker', cursive;
+}
+
+.hero-text h5 {
+    color: #3f51dc;
+    font-size: 19px;
+    font-weight: 500;
+    margin-bottom: 12px;
+}
+
+.hero-text p {
+    color: #4d4b47;
+    font-size: 16px;
+    line-height: 30px;
+    margin-bottom: 40px;
+}
+
+.btn {
+    display: inline-block;
+    padding: 12px 25px;
+    font-size: 15px;
+    font-weight: 600;
+    color: #fff;
+    background: #3f51dc;
+    border-radius: 10px;
+    border: 2px solid transparent;
+    transition: all .50s ease;
+}
+
+.btn:hover {
+    background: transparent;
+    color: #3f51dc;
+    border: 2px solid #3f51dc;
+}
+
+.btn2 {
+    background: transparent;
+    border: 2px solid #3f51dc;
+    color: #3f51dc;
+    margin-left: 15px;
+    transition: all .50s ease;
+}
+
+.btn2:hover {
+    background: #3f51dc;
+    color: #fff;
+}
+
+.hero-img img {
+    height: auto;
+    width: 100%;
+}
+
+
+/* Design do Scroll */
+
+
+.scroll {
+    position: absolute;
+    bottom: 5%;
+    right: 9%;
+    display: flex;
+    align-items: center;
+}
+
+.scroll a {
+    font-size: 18px;
+    color: #000000;
+} 
+
+.scroll i {
+    vertical-align: middle;
+    margin-left: 10px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 45px;
+    height: 45px;
+    background: #3f51dc;
+    color: #fff;
+    font-size: 22px;
+    border-radius: 50%;
+    border: 2px solid transparent;
+    transition: all .50s ease;
+}
+
+.scroll i:hover {
+    background: transparent;
+    border: 2px solid #3f51dc;
+    color: #3f51dc;
+    transform: translateY(-5px);
+}
+
+
+/* Design da Barra de Icones */
+
+.icon {
+    position: absolute;
+    top: 50%;
+    padding: 0 9%;
+    transform: translateY(-50%);
+}
+
+.icon i {
+    display: block;
+    margin: 25px 0;
+    font-size: 25px;
+    color: #3f51dc;
+    transition: all .50s ease;
+}
+
+.icon i:hover {
+    transform: translateY(-6px);
+}
+
+/* Configurando a responsibilidade */
+
+/* 15:56 */
